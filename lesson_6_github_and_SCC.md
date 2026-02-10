@@ -1,0 +1,2 @@
+- first create an account on github
+- login streamlit using that account
