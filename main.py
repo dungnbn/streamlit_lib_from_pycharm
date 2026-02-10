@@ -18,7 +18,7 @@ check_box = st.checkbox("I confirm")
 button = st.button("Submit")
 if check_box and button:
     my_bar = st.progress(0.0, "wow")
-    for per in range(10):
+    for per in range(11):
         time.sleep(0.05)
         my_bar.progress(per/10)
     st.balloons()
